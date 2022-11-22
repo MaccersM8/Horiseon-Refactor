@@ -1,56 +1,77 @@
+/* Applicable To All Documents*/
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 
+/* Applicable To All Elements Within The <body> Element */
 body {
     background-color: #d9dcd6;
 }
 
+/* Applicable To All Elements Within The <header> Element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
-header h1 {
+/* Applicable To The Main Heading Element "<h1>" (Horiseon) */
+h1 {
+    color: #ffffff;
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+/* Applicable To The Secondary Heading Element "<h2>" */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Applicable To The Third Heading Element "<h3>" */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+/* Applicable To The <span> Element ("SEO" In Horiseon Heading <h1>) */
+span {
     color: #d9dcd6;
 }
 
+/* Applicable To All Navigation Links On The Web Page */
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.Navigation-Links {
-    list-style-type: none;
-}
-
-nav ul li {
+/* Applicable To All Listed Elements On The Web Page */
+li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Applicable To All Hyperlinks On The Webpage */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Applicable To All Paragraphs On The Web Page */
 p {
     font-size: 16px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-.Marketing-Meeting-Image {
+/* Applicable To The <div> Element (Main Web Page Image) */
+div {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,135 +80,64 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Applicable To The Left Hand Side Content ("Main Services") */
 .Main-Services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Applicable To The Images Featured On The Left (SEO And Social Media Marketing) */
+.Left-Sided-Images {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Applicable To The Image Featured On The Right (Online Reputation Management) */
+.Right-Sided-Image {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Applicable To The SEO, Online Reputation And Social Media Marketing Sections Of The Main Content */
+.Three-Main-Services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Applicable To All Three Images For The SEO, Online Reputation And Social Media Marketing Sections Of The 
+Main Content */
+.Three-Main-Services img {
+    max-height: 200px;
+}
+
+/* Applicable To The Section To The Right Of The Web Page (Advantages Of Horiseon) */
 aside {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.Lead-Generation {
+/* Applicable To The Sections Outlining The Advantages Of Horiseon */
+.Horiseon-Advantages {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
-.Brand-Awareness {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.Cost-Management {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.Lead-Generation h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.Brand-Awareness h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.Cost-Management h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.Lead-Generation img {
+/* Applicable To The Images Of The Advantages Sections */
+.Horiseon-Advantages img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.Brand-Awareness img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.Cost-Management img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Applicable To The Footer Of The Web Page */
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +145,8 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* Applicable To The Content Of The Footer */
+.Footer-Content {
     font-size: 20px;
+    color: black
 }
