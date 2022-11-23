@@ -8,6 +8,7 @@ The motivation behind this project was to refactor and edit the code of the Hori
 ## Table Of Contents
 - [Usage](#usage)
 - [Credits](#credits)
+- [Deployment](#deployment)
 - [License](#license)
 
 #
@@ -41,6 +42,13 @@ Throughout working on this project/challenge, I sought the knowledge and advice 
 - https://www.freecodecamp.org/news/semantic-html5-elements/#:~:text=Semantic%20HTML%20elements%20are%20those,content%20that%20is%20inside%20them.
 - https://html.com/semantic-markup/
 - https://www.w3schools.com/html/html_accessibility.asp
+
+#
+
+## Deployment
+Below is the link to the deployed web page using GitHub Pages:
+
+- https://maccersm8.github.io/Horiseon-Refactor/
 
 #
 
